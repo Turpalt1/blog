@@ -7,16 +7,20 @@
   --bg-secondary: #f6f6f7;
   --bg-block: #e8e8ea;
   --bg-brand: #4b6bfb;
-
+  --bg-tag: #f6f7ff;
+  --bg-icon-link:#696a75;
+  
   --tag-block: #4b6bfb;
-  --text-primary:#181a2a;
+  --text-primary: #181a2a;
   --text-secondary: #696a75;
   --text-header: #3b3c4a;
-  --text-little: #97989f;
-  --text-post: #3b3c4a;
+  --text-muted: #97989f;
+  --text-content: #3b3c4a;
 
   --border-block: #e8e8ea;
-  
+
+  --box-shadow-block: 0 12px 24px rgba(24, 26, 42, 0.3);
+
   --text-size-xs: 14px;
   --text-size-sm: 16px;
   --text-size-md: 18px;

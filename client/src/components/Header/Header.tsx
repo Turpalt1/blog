@@ -1,11 +1,12 @@
+import type { HTMLAttributes } from "react";
 import logo from "../../assets/logo.png";
 import CheckboxTheme from "../../UI/CheckboxTheme";
 import InputSearch from "../../UI/InputSearch";
 import styles from "./Header.module.css";
 
-const Header = () => {
+const Header = ({ className }: HTMLAttributes<HTMLElement>) => {
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${className ?? ""}`}>
       <div className={styles.logo}>
         <img src={logo} alt="Logo" />
         <p>

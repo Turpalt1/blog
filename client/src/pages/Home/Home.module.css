@@ -1,0 +1,63 @@
+.main {
+}
+.mainNews {
+  position: relative;
+  z-index: 0;
+  margin-bottom: 144px;
+}
+.mainNewsBlock {
+  position: absolute;
+  bottom: -44px;
+  box-shadow: var(--box-shadow-block);
+  left: 64px;
+  padding: 40px;
+  max-width: 600px;
+  border: 1px solid var(--border-block);
+  background-color: var(--bg-primary);
+  border-radius: var(--radius-md);
+}
+.mainNewsTag {
+  display: inline-block;
+  background-color: var(--bg-brand);
+  color: var(--color-white);
+  font-size: var(--text-size-xs);
+  border-radius: var(--radius-sm);
+  padding: 4px 10px;
+  margin-bottom: 16px;
+}
+.mainNewsTitle {
+  color: var(--text-primary);
+  font-size: var(--text-size-2xl);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.mainNewsUser {
+  display: flex;
+  align-items: center;
+}
+.mainNewsUserAvatar {
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  border-radius: var(--radius-round);
+}
+.mainNewsUserAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.mainNewsUserName {
+  margin-left: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.mainNewsUserDate {
+  margin-left: 20px;
+  color: var(--text-muted);
+}
+.ads {
+  margin-bottom: 80px;
+}
+.latest {
+  margin-bottom: 80px;
+}

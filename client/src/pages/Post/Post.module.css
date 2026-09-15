@@ -1,0 +1,89 @@
+.main {
+}
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 0px 80px 0px;
+}
+.postTag {
+  padding: 6px 12px;
+  color: var(--color-white);
+  font-size: var(--text-size-sm);
+  background-color: var(--tag-block);
+  border-radius: var(--radius-sm);
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.postMainTitle {
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: var(--text-size-2xl);
+  margin-bottom: 20px;
+}
+.postUser {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+.postUserAvatar {
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  border-radius: var(--radius-round);
+}
+.postUserAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.postUserName {
+  margin-left: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.postUserDate {
+  margin-left: 20px;
+  color: var(--text-muted);
+}
+.postMainImg {
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.postMainImg img {
+  width: 100%;
+  height: 100%;
+}
+.postTitle {
+  font-size: var(--text-size-xl);
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.postParagraph {
+  font-size: var(--text-size-lg);
+  color: var(--text-content);
+  margin-bottom: 32px;
+  font-family: "Source Serif 4", serif;
+}
+.postQuote {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  font-size: var(--text-size-lg);
+  font-style: italic;
+  font-family: "Source Serif 4", serif;
+  padding: 32px;
+  margin-bottom: 32px;
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--bg-block);
+}
+.postImage {
+  max-width: 800px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.postImage img {
+  width: 100%;
+  height: 100%;
+}

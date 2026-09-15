@@ -1,0 +1,137 @@
+.footer {
+  background-color: var(--bg-secondary);
+}
+.footerContent {
+  padding: 64px 0px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  border-bottom: 1px solid var(--border-block);
+}
+.footerAbout {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  margin-right: 100px;
+}
+.footerAboutTitle {
+  font-size: var(--text-size-md);
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.footerAboutText {
+  color: var(--text-secondary);
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.footerAboutEmail {
+  margin-bottom: 4px;
+}
+.footerAboutPhone {
+}
+.footerLinks {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.footerLinksTitle {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: var(--text-size-md);
+  color: var(--text-primary);
+}
+.footerLinks li {
+  margin-bottom: 8px;
+}
+.footerLinks a {
+  color: var(--text-content);
+}
+.footerCategory {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.footerCategoryTitle {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: var(--text-size-md);
+  color: var(--text-primary);
+}
+.footerCategory li {
+  margin-bottom: 8px;
+}
+.footerCategory a {
+  color: var(--text-content);
+}
+
+.footerSubscribe {
+  background-color: var(--bg-primary);
+  padding: 32px 36px;
+  font-family: "Work-Sans", sans-serif;
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+.footerSubscribeTitle {
+  font-size: var(--text-size-lg);
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.footerSubscribeSubtitle {
+  margin-bottom: 30px;
+  color: var(--text-content);
+}
+.footerSubscribeInput {
+  position: relative;
+}
+.footerSubscribeInput img {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footerSubscribeInput input {
+  border: 1px solid var(--border-block);
+  padding: 12px 42px 12px 16px;
+  width: 100%;
+  color: var(--text-content);
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+}
+.footerSubscribe button {
+  padding: 12px 0px;
+  border-radius: var(--radius-sm);
+  width: 100%;
+  color: var(--color-white);
+  font-weight: 500;
+  background-color: var(--bg-brand);
+}
+.footerLicence {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px;
+}
+.footerLogo {
+  display: flex;
+  gap: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: var(--text-size-md);
+}
+.footerLogoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footerLogoText p {
+  font-weight: 400;
+  font-size: var(--text-size-sm);
+}
+.footerPolicy {
+  display: flex;
+}
+
+.footerPolicy li:nth-child(2) a {
+  border-left: 1px solid var(--border-block);
+  border-right: 1px solid var(--border-block);
+}
+
+.footerPolicy a {
+  padding: 0px 16px;
+  color: var(--text-content);
+}
