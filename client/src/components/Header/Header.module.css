@@ -28,3 +28,9 @@
   align-items: center;
   gap: 40px;
 }
+.btn {
+  padding: 10px 20px;
+  color: var(--color-white);
+  background-color: var(--bg-brand);
+  border-radius: var(--radius-sm);
+}

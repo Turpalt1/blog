@@ -93,7 +93,7 @@
   margin-bottom: 8px;
 }
 .footerSubscribe button {
-  padding: 12px 0px;
+  padding: 12px;
   border-radius: var(--radius-sm);
   width: 100%;
   color: var(--color-white);

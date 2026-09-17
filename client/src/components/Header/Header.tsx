@@ -3,6 +3,7 @@ import logo from "../../assets/logo.png";
 import CheckboxTheme from "../../UI/CheckboxTheme";
 import InputSearch from "../../UI/InputSearch";
 import styles from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 
 const Header = ({ className }: HTMLAttributes<HTMLElement>) => {
   return (
@@ -16,24 +17,26 @@ const Header = ({ className }: HTMLAttributes<HTMLElement>) => {
       <nav className={styles.nav}>
         <ul className={styles.list}>
           <li className={styles.li}>
-            <a className={styles.link} href="#">
+            <NavLink to="/" className={styles.link}>
               Home
-            </a>
+            </NavLink>
           </li>
           <li className={styles.li}>
-            <a className={styles.link} href="#">
+            <NavLink to="/blog" className={styles.link}>
               Blog
-            </a>
+            </NavLink>
           </li>
           <li className={styles.li}>
-            <a className={styles.link} href="#">
+            <NavLink to="/contact" className={styles.link}>
               Contact
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
       <div className={styles.right}>
-        <InputSearch />
+        <NavLink to="/auth/login" className={styles.btn}>
+          Войти
+        </NavLink>
         <CheckboxTheme />
       </div>
     </header>

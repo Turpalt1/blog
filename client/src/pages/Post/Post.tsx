@@ -3,7 +3,7 @@ import postMainImage from "../../assets/postMainImage.png";
 import postImage from "../../assets/postImage.png";
 
 import styles from "./Post.module.css";
-const SinglePost = () => {
+const Post = () => {
   return (
     <main className={styles.main}>
       <div className={styles.post}>
@@ -63,4 +63,4 @@ const SinglePost = () => {
     </main>
   );
 };
-export default SinglePost;
+export default Post;
