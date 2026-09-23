@@ -1,0 +1,23 @@
+.ads {
+  color: var(--text-secondary);
+  padding: 15px;
+  background-color: var(--bg-block);
+  border-radius: var(--radius-md);
+  text-align: center;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  font-size: var(--text-size-xs);
+  line-height: 20px;
+}
+.subtitle {
+  font-weight: 600;
+  line-height: 24px;
+  font-size: var(--text-size-md);
+}
+.size {
+  line-height: 26px;
+  font-size: var(--text-size-lg);
+}
